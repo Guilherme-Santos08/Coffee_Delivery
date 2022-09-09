@@ -5,3 +5,17 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+@layer components {
+  .flexBetweenCenter {
+    @apply flex justify-between items-center;
+  }
+
+  .flexCenterCenter {
+    @apply flex justify-center items-center;
+  }
+
+  .fontExtraBoldBaloo2 {
+    font-family: 'Baloo 2', cursive;
+  }
+}
