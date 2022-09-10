@@ -1,6 +1,6 @@
 export function Benefits() {
   return (
-    <div className='benefits mt-6 gap-2 grid grid-cols-1 sm:grid-cols-2'>
+    <div className='benefits mt-6 gap-2 grid grid-cols-1 sm:grid-cols-2 lg:mt-16'>
       <div className='flex items-center'>
         <div
           className='
